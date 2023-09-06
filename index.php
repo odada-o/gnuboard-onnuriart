@@ -24,6 +24,14 @@ include_once(G5_PATH.'/head.php');
         Cooperative
       </p>
     </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
     <!-- 단체소개 -->
     <div class="sec-g bg-red sec-about">
       <div class="container">
